@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T11:17:48.719Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="TJbLK_mAi-YfkMmH34ac" version="20.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T03:27:18.690Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="4qQ9gEqXMfFClIJnh_4z" version="20.8.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1674" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -69,10 +69,29 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_-XLKiYhztIRVs0oLOAJ-4" value="open-api" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="80" width="110" height="520" as="geometry" />
+          <mxGeometry x="640" y="80" width="110" height="590" as="geometry" />
         </mxCell>
         <mxCell id="_-XLKiYhztIRVs0oLOAJ-5" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="_-XLKiYhztIRVs0oLOAJ-4">
-          <mxGeometry x="50" y="210" width="10" height="160" as="geometry" />
+          <mxGeometry x="50" y="210" width="10" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="_-XLKiYhztIRVs0oLOAJ-27" value="rpc查询接收群组或用户" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.1;exitY=0.546;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.1;entryY=0.263;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="_-XLKiYhztIRVs0oLOAJ-4" target="_-XLKiYhztIRVs0oLOAJ-18">
+          <mxGeometry x="-0.1125" y="1" relative="1" as="geometry">
+            <mxPoint x="60" y="330.0000000000001" as="sourcePoint" />
+            <mxPoint x="392.5" y="330.0000000000001" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_-XLKiYhztIRVs0oLOAJ-29" value="周报、审批模板兼容" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="_-XLKiYhztIRVs0oLOAJ-4">
+          <mxGeometry x="0.5761" y="-8" relative="1" as="geometry">
+            <mxPoint x="64" y="380" as="sourcePoint" />
+            <mxPoint x="64" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="181" y="380" />
+              <mxPoint x="180" y="410" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_-XLKiYhztIRVs0oLOAJ-15" value="封装数据，调用旧的工作卡发送接口" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.1;exitY=0.546;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry x="-0.1125" y="1" relative="1" as="geometry">
@@ -83,10 +102,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_-XLKiYhztIRVs0oLOAJ-17" value="eim-open" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="80" width="100" height="300" as="geometry" />
+          <mxGeometry x="840" y="80" width="100" height="530" as="geometry" />
         </mxCell>
         <mxCell id="_-XLKiYhztIRVs0oLOAJ-18" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="_-XLKiYhztIRVs0oLOAJ-17">
-          <mxGeometry x="45" y="210" width="10" height="160" as="geometry" />
+          <mxGeometry x="45" y="310" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="_-XLKiYhztIRVs0oLOAJ-19" value="new-imgate" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1080" y="80" width="100" height="300" as="geometry" />
@@ -106,15 +125,32 @@
         <mxCell id="_-XLKiYhztIRVs0oLOAJ-24" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="_-XLKiYhztIRVs0oLOAJ-23">
           <mxGeometry x="45" y="210" width="10" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="_-XLKiYhztIRVs0oLOAJ-25" value="各种参数校验" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.288;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_-XLKiYhztIRVs0oLOAJ-5">
+        <mxCell id="_-XLKiYhztIRVs0oLOAJ-25" value="各种参数校验" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.288;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry x="0.484" y="-1" relative="1" as="geometry">
-            <mxPoint x="698" y="315" as="sourcePoint" />
-            <mxPoint x="692.5" y="345" as="targetPoint" />
+            <mxPoint x="698" y="309" as="sourcePoint" />
+            <mxPoint x="700" y="330.0799999999999" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="813" y="315" />
-              <mxPoint x="813" y="336" />
+              <mxPoint x="813" y="309" />
+              <mxPoint x="813" y="330" />
             </Array>
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_-XLKiYhztIRVs0oLOAJ-26" value="机器人是否在群组、用户是否&#xa;关注或屏蔽服务号消息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="_-XLKiYhztIRVs0oLOAJ-4">
+          <mxGeometry x="0.484" y="-1" relative="1" as="geometry">
+            <mxPoint x="699" y="345" as="sourcePoint" />
+            <mxPoint x="710" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="814" y="345" />
+              <mxPoint x="820" y="380" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_-XLKiYhztIRVs0oLOAJ-28" value="返回群组或用户信息" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="1" target="_-XLKiYhztIRVs0oLOAJ-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="440" as="targetPoint" />
+            <mxPoint x="880" y="440" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
