@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T03:27:18.690Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="4qQ9gEqXMfFClIJnh_4z" version="20.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T07:03:53.731Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="bwcJ8sV6sIU4mVnokMwy" version="20.8.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1674" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -69,10 +69,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_-XLKiYhztIRVs0oLOAJ-4" value="open-api" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="80" width="110" height="590" as="geometry" />
+          <mxGeometry x="640" y="80" width="110" height="950" as="geometry" />
         </mxCell>
         <mxCell id="_-XLKiYhztIRVs0oLOAJ-5" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="_-XLKiYhztIRVs0oLOAJ-4">
-          <mxGeometry x="50" y="210" width="10" height="300" as="geometry" />
+          <mxGeometry x="50" y="210" width="10" height="470" as="geometry" />
         </mxCell>
         <mxCell id="_-XLKiYhztIRVs0oLOAJ-27" value="rpc查询接收群组或用户" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.1;exitY=0.546;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.1;entryY=0.263;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="_-XLKiYhztIRVs0oLOAJ-4" target="_-XLKiYhztIRVs0oLOAJ-18">
           <mxGeometry x="-0.1125" y="1" relative="1" as="geometry">
@@ -84,11 +84,11 @@
         </mxCell>
         <mxCell id="_-XLKiYhztIRVs0oLOAJ-29" value="周报、审批模板兼容" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="_-XLKiYhztIRVs0oLOAJ-4">
           <mxGeometry x="0.5761" y="-8" relative="1" as="geometry">
-            <mxPoint x="64" y="380" as="sourcePoint" />
-            <mxPoint x="64" y="410" as="targetPoint" />
+            <mxPoint x="60" y="380" as="sourcePoint" />
+            <mxPoint x="60" y="410" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="181" y="380" />
-              <mxPoint x="180" y="410" />
+              <mxPoint x="177" y="380" />
+              <mxPoint x="176" y="410" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -151,6 +151,50 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="710" y="440" as="targetPoint" />
             <mxPoint x="880" y="440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_-XLKiYhztIRVs0oLOAJ-30" value="生成cardid" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="0.5761" y="-8" relative="1" as="geometry">
+            <mxPoint x="700" y="591" as="sourcePoint" />
+            <mxPoint x="700" y="621" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="817" y="591" />
+              <mxPoint x="816" y="621" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_-XLKiYhztIRVs0oLOAJ-31" value="知识网络实体&#xa;发送kafka" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="0.5438" relative="1" as="geometry">
+            <mxPoint x="700" y="637" as="sourcePoint" />
+            <mxPoint x="700" y="667" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="817" y="637" />
+              <mxPoint x="816" y="667" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_-XLKiYhztIRVs0oLOAJ-32" value="打标逻辑" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="0.5761" y="-8" relative="1" as="geometry">
+            <mxPoint x="702" y="503" as="sourcePoint" />
+            <mxPoint x="702" y="533" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="819" y="503" />
+              <mxPoint x="818" y="533" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_-XLKiYhztIRVs0oLOAJ-33" value="待阅逻辑" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="0.5761" y="-8" relative="1" as="geometry">
+            <mxPoint x="700" y="550" as="sourcePoint" />
+            <mxPoint x="700" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="817" y="550" />
+              <mxPoint x="816" y="580" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
